@@ -3,28 +3,25 @@
 
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Search</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Search video</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="search">
         <div class="search__pic">
-            <a href="search-picture.html">Пошук зображень</a>
-        </div>
-        <div class="search__pic">
-            <a href="search-video.html">Пошук відео</a>
+            <a href="../index.html">Повернутись до пошуку Google</a>
         </div>
     </nav>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo"
         class="google-logo">
     <form action="https://google.com/search" method="GET" class="search-form">
         <div class="input-text">
-            <input type="text" name="q">
+            <input type="text" name="q" />
+            <input type="hidden" name="tbm" value="vid" />
         </div>
         <div class="submit-buttons">
-            <input type="submit" value="Пошук Google" class="submit submit-google-search">
-            <input type="submit" value="Мені пощастить" class="submit submit-lucky">
+            <input type="submit" value="Пошук відео" class="submit" />
         </div>
     </form>
 </body>
