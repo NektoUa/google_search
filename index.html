@@ -3,12 +3,20 @@
 
 <head>
     <title>Search</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo"
+        class="google-logo">
+    <form action="https://google.com/search" method="GET" class="search-form">
+        <div class="input-text">
+            <input type="text" name="q">
+        </div>
+        <div class="submit-buttons">
+            <input type="submit" value="Пошук Google" class="submit submit-google-search">
+            <input type="submit" value="Мені пощастить" class="submit submit-lucky">
+        </div>
     </form>
 </body>
 
