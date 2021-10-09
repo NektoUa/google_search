@@ -19,14 +19,14 @@ body {
     text-decoration: underline;
   }
   
-  .search__pic {
+  .search_pic_vid {
     padding-right: 10px;
   }
   
   .google-logo {
     display: block;
     max-width: 480px;
-    margin: 0px auto 20px;
+    margin: 100px auto 20px;
   }
   
   .search-form {

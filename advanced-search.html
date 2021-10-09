@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="advance-style.css" />
+</head>
+
+<body>
+    <nav class="recover">
+        <a href="index.html" class="recover__link">Повернутись до пошуку Google</a>
+    </nav>
+    <!-- Розширений пошук -->
+    <h1 class="main-title">Розширений пошук</h1>
+    <div class="line"></div>
+
+    <main class="search">
+        <form action="https://google.com/search" class="container">
+            <div class="search__field">
+                <div class="search__label">
+                    <div class="search__text">
+                        <p>Знайти сторінки, що<br />містять...</p>
+                    </div>
+                    <div class="search__question-hint">
+                        <p>Як це зробити в полі пошуку</p>
+                    </div>
+                </div>
+                <div class="search__row search__row-1">
+                    <div class="search__rule">усі ці слова:</div>
+                    <div class="search__item">
+                        <input type="text" name="q" class="search__input" />
+                    </div>
+                    <div class="search__hint">
+                        Введіть важливі слова: триколірний рет-тер’єр
+                    </div>
+                </div>
+                <div class="search__row search__row-2">
+                    <div class="search__rule">точне слово або фразу:</div>
+                    <div class="search__item">
+                        <input type="text" name="q" class="search__input" />
+                    </div>
+                    <div class="search__hint">
+                        Візьміть точні слова в лапки: "рет-тер’єр"
+                    </div>
+                </div>
+                <div class="search__row search__row-3">
+                    <div class="search__rule">будь-яке з цих слів:</div>
+                    <div class="search__item">
+                        <input type="text" name="q" class="search__input" />
+                    </div>
+                    <div class="search__hint">
+                        Введіть OR між усіма потрібними словами: мініатюрні OR стандартні
+                    </div>
+                </div>
+                <div class="search__row search__row-4">
+                    <div class="search__rule">жодне з цих слів:</div>
+                    <div class="search__item">
+                        <input type="text" name="q" class="search__input" />
+                    </div>
+                    <div class="search__hint">
+                        Поставте знак мінус перед небажаними словами: -гризун, -"Джек
+                        Рассел"
+                    </div>
+                </div>
+                <div class="search__btn">
+                    <input type="submit" value="Розширений пошук" class="search__btn-click" />
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
