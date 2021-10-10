@@ -8,17 +8,20 @@
 </head>
 
 <body>
-    <nav class="search">
-        <div class="search_pic_vid">
-            <a href="search-picture.html">Пошук зображень</a>
-        </div>
-        <div class="search_pic_vid">
-            <a href="search-video.html">Пошук відео</a>
-        </div>
-        <div class="advanced_search">
-            <a href="advanced-search.html">Розширений пошук</a>
-        </div>
-    </nav>
+    <div class="dropdown">
+        <button class="dropbtn"><b>...</b></button>
+        <nav class="search dropdown-content">
+            <div class="search_pic_vid">
+                <a href="search-picture.html">Пошук зображень</a>
+            </div>
+            <div class="search_pic_vid">
+                <a href="search-video.html">Пошук відео</a>
+            </div>
+            <div class="advanced_search">
+                <a href="advanced-search.html">Розширений пошук</a>
+            </div>
+        </nav>
+    </div>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo"
         class="google-logo">
     <form action="https://google.com/search" method="GET" class="search-form">
